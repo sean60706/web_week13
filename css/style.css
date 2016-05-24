@@ -1,0 +1,191 @@
+body{
+	background-color: #f8c8ad;
+
+}
+div{
+	
+}
+.container{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.navbar{
+	height: 200px;
+
+}
+.navbar_button{
+	float: right;
+	margin-top: 40px;
+	
+	margin-right: 50px;
+
+	font-size: 30px;
+	font-family: Arial;
+}
+.big_photo{
+	height: 480px;
+	width: 960px;
+
+}
+.special{
+	margin-top: 20px;
+	max-height: 440px;
+	
+
+}
+/*.dishes{
+	height: 60px;
+	background-color: white;
+}*/
+.dishes{
+	height: 200px;
+}
+.dishes img{
+	height: 160px;
+	width: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.dishes_photo{
+	float: left;
+}
+.dishes_description{
+	float: left;
+	width: 700px;
+}
+.dishes_name{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 26px;
+	font-weight: bold;
+
+}
+.dishes_descript{
+	margin-top: 0px;
+	
+}
+
+
+.footer{
+	height: 80px;
+	background-color: gray;
+}
+.share_btn{
+	float:right;
+	height: 50px;
+	width: 50px;
+}
+.share_btn {
+	margin-left: 10px;
+}
+.footer_text{
+	float: left;
+	color: white;
+	margin-left: 40px;
+}
+#logo{
+	height: 180px;
+	width: 200px;
+}
+.button{
+	float: right;
+	margin-left: 30px;
+}
+.footer_btn{
+	padding-top: 10px;
+	margin-right: 50px;
+}
+
+@media screen and (max-width:320px){
+	.dishes_photo{
+		float: none;
+	}
+	.big_photo{
+		display: none;
+
+	}
+	.navbar{
+		width: 100%;
+	}
+	.button{
+		width: 20%;
+		float:left;
+		margin-right: 20px;
+		padding-top: 0px;
+		margin-top:-60px;
+		
+
+	}
+	.navbar_button{
+		float: left;
+		width: 60%;
+		padding-top: 0px;
+
+	}
+	#logo{
+		height: 25%;
+		width: 20%;
+		float: left;
+	}
+	.dishes_description{
+		width: 100%;
+	}
+	.dishes{
+		
+		height: 400px;
+	}
+	.footer{
+		
+		float: none;
+		height: 200px;
+	}
+	.special{
+		margin-top: 20px;
+		max-height: 2000px;
+	
+	}
+	.footer_btn{
+		padding-top: 10px;
+		height: 50px;
+		
+
+	}.
+	.footer_text{
+		float: none;
+		color: white;
+		margin-left: 40px;
+	}
+
+}
+@media screen and (max-width:768px){
+	.big_photo{
+		height: 325px;
+		width: 650px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo{
+		height: 140px;
+		width: 150px;
+	}
+	.dishes_description{
+		float: left;
+		max-width: 400px;
+		font-size: 18px;
+	}
+	.dishes_name{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 26px;
+		font-weight: bold;
+
+	}
+	.dishes_descript{
+		margin-top: 0px;
+		
+	}
+
+}
